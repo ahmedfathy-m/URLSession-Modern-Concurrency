@@ -8,8 +8,12 @@
 import Foundation
 
 extension URLRequest {
-    var bodyParameters: [String: Any] {
+    /// Directly sets the body parameters as a dictionary
+    var bodyParameters: HTTPBodyTextFields {
         get { (try? JSONSerialization.jsonObject(with: self.httpBody ?? Data()) as? [String: Any]) ?? [:] }
-        set { self.httpBody = try? JSONSerialization.data(withJSONObject: newValue) }
+        set {
+            guard !newValue.isEmpty else { return }
+            self.httpBody = try? JSONSerialization.data(withJSONObject: newValue)
+        }
     }
 }

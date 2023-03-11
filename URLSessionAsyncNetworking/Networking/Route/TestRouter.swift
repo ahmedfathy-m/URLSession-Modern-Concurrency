@@ -8,32 +8,37 @@
 import Foundation
 
 enum Router {
-    case home(image: Data)
+    case placeholder
 }
 
 extension Router: Route {
     var baseURL: String {
-        "awamer.com"
+        "https://jsonplaceholder.typicode.com"
     }
     
     var routePath: String {
-        "api/home"
+        switch self {
+        case .placeholder:
+            return "posts"
+        }
     }
     
     var method: URLRequest.HTTPMethod {
-        .post
+        switch self {
+        case .placeholder: return .get
+        }
     }
     
-    var body: [String : Any] {
-        return [:]
+    var body: HTTPBodyTextFields {
+        .empty
     }
     
-    var query: [String : String] {
-        return [:]
+    var query: QueryParameters {
+        .empty
     }
     
     var contentType: URLRequest.ContentType {
-        .multipart(boundary: UUID().uuidString)
+        .formData
     }
     
     var acceptType: URLRequest.AcceptType {
@@ -41,11 +46,9 @@ extension Router: Route {
     }
     
     var dataFields: HTTPBodyDataFields {
-        var dataFields = HTTPBodyDataFields()
         switch self {
-        case .home(let image):
-            dataFields.append(DataField(key: "key", mimeType: .jpeg, data: image))
+        case .placeholder:
+            return .empty
         }
-        return dataFields
     }
 }

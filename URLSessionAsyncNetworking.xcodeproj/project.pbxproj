@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74495F9329BB7DE60082C6F9 /* URLResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74495F9229BB7DE60082C6F9 /* URLResponseHandler.swift */; };
+		74495F9529BB86860082C6F9 /* ClientHTTPResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74495F9429BB86860082C6F9 /* ClientHTTPResponseError.swift */; };
+		74495F9729BB869A0082C6F9 /* ServerHTTPResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74495F9629BB869A0082C6F9 /* ServerHTTPResponseError.swift */; };
+		74A4910229BCC386000504D5 /* ViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A4910129BCC386000504D5 /* ViewController+UITableViewDataSource.swift */; };
+		74E8322329BB515100E9FFAE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E8322229BB515100E9FFAE /* Post.swift */; };
 		8C7117B829B88F67000485D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7117B729B88F67000485D0 /* AppDelegate.swift */; };
 		8C7117BA29B88F67000485D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7117B929B88F67000485D0 /* SceneDelegate.swift */; };
 		8C7117BC29B88F67000485D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7117BB29B88F67000485D0 /* ViewController.swift */; };
@@ -24,7 +29,6 @@
 		8C7117F529B89184000485D0 /* URLRequest+HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7117F429B89184000485D0 /* URLRequest+HTTPMethod.swift */; };
 		8C7117F729B891A3000485D0 /* URLRequest+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7117F629B891A3000485D0 /* URLRequest+Query.swift */; };
 		8C7117FA29B891E9000485D0 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7117F929B891E9000485D0 /* Service.swift */; };
-		8C7117FD29B893C3000485D0 /* Global Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7117FC29B893C3000485D0 /* Global Models.swift */; };
 		8C71180029B8CC6C000485D0 /* DataField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7117FF29B8CC6C000485D0 /* DataField.swift */; };
 		8C71180229B8CDCB000485D0 /* NSMutableData+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71180129B8CDCB000485D0 /* NSMutableData+String.swift */; };
 		8C71180429B8CE31000485D0 /* TestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71180329B8CE31000485D0 /* TestRouter.swift */; };
@@ -32,8 +36,6 @@
 		8C71180A29B8D2E2000485D0 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71180929B8D2E2000485D0 /* Parameters.swift */; };
 		8C71180C29B9C741000485D0 /* Data+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71180B29B9C741000485D0 /* Data+String.swift */; };
 		8C71180F29B9C852000485D0 /* ResponseHandlerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71180E29B9C852000485D0 /* ResponseHandlerError.swift */; };
-		8C71181129B9C868000485D0 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71181029B9C868000485D0 /* ErrorHandler.swift */; };
-		8C71181329B9C888000485D0 /* DataTaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71181229B9C888000485D0 /* DataTaskType.swift */; };
 		8C71181529B9C8A7000485D0 /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71181429B9C8A7000485D0 /* ResponseHandler.swift */; };
 		8C71181729B9D125000485D0 /* ResponseCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C71181629B9D125000485D0 /* ResponseCompletion.swift */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74495F9229BB7DE60082C6F9 /* URLResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLResponseHandler.swift; sourceTree = "<group>"; };
+		74495F9429BB86860082C6F9 /* ClientHTTPResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientHTTPResponseError.swift; sourceTree = "<group>"; };
+		74495F9629BB869A0082C6F9 /* ServerHTTPResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerHTTPResponseError.swift; sourceTree = "<group>"; };
+		74A4910129BCC386000504D5 /* ViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		74E8322229BB515100E9FFAE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		8C7117B429B88F67000485D0 /* URLSessionAsyncNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSessionAsyncNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7117B729B88F67000485D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C7117B929B88F67000485D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +84,6 @@
 		8C7117F429B89184000485D0 /* URLRequest+HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+HTTPMethod.swift"; sourceTree = "<group>"; };
 		8C7117F629B891A3000485D0 /* URLRequest+Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Query.swift"; sourceTree = "<group>"; };
 		8C7117F929B891E9000485D0 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		8C7117FC29B893C3000485D0 /* Global Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Models.swift"; sourceTree = "<group>"; };
 		8C7117FF29B8CC6C000485D0 /* DataField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataField.swift; sourceTree = "<group>"; };
 		8C71180129B8CDCB000485D0 /* NSMutableData+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableData+String.swift"; sourceTree = "<group>"; };
 		8C71180329B8CE31000485D0 /* TestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRouter.swift; sourceTree = "<group>"; };
@@ -85,8 +91,6 @@
 		8C71180929B8D2E2000485D0 /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
 		8C71180B29B9C741000485D0 /* Data+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+String.swift"; sourceTree = "<group>"; };
 		8C71180E29B9C852000485D0 /* ResponseHandlerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandlerError.swift; sourceTree = "<group>"; };
-		8C71181029B9C868000485D0 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
-		8C71181229B9C888000485D0 /* DataTaskType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskType.swift; sourceTree = "<group>"; };
 		8C71181429B9C8A7000485D0 /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
 		8C71181629B9D125000485D0 /* ResponseCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCompletion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +120,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74A4910029BCC375000504D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C7117BB29B88F67000485D0 /* ViewController.swift */,
+				74A4910129BCC386000504D5 /* ViewController+UITableViewDataSource.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		74A4910329BCC3FB000504D5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8C7117B729B88F67000485D0 /* AppDelegate.swift */,
+				8C7117B929B88F67000485D0 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		74A4910429BCC46B000504D5 /* URLResponseHandler */ = {
+			isa = PBXGroup;
+			children = (
+				74A4910529BCC475000504D5 /* Main */,
+				74A4910629BCC47A000504D5 /* Errors */,
+			);
+			path = URLResponseHandler;
+			sourceTree = "<group>";
+		};
+		74A4910529BCC475000504D5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				74495F9229BB7DE60082C6F9 /* URLResponseHandler.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		74A4910629BCC47A000504D5 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				74495F9429BB86860082C6F9 /* ClientHTTPResponseError.swift */,
+				74495F9629BB869A0082C6F9 /* ServerHTTPResponseError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		74A4910729BCC4AB000504D5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8C71181429B9C8A7000485D0 /* ResponseHandler.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		74A4910829BCC4B3000504D5 /* ResponseHandler */ = {
+			isa = PBXGroup;
+			children = (
+				74A4910729BCC4AB000504D5 /* Main */,
+				8C71180D29B9C83F000485D0 /* Errors */,
+			);
+			path = ResponseHandler;
+			sourceTree = "<group>";
+		};
+		74A4910929BCC4D4000504D5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8C7117F929B891E9000485D0 /* Service.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		74E8322129BB514800E9FFAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74E8322229BB515100E9FFAE /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8C7117AB29B88F67000485D0 = {
 			isa = PBXGroup;
 			children = (
@@ -139,10 +220,10 @@
 		8C7117B629B88F67000485D0 /* URLSessionAsyncNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				74E8322129BB514800E9FFAE /* Model */,
 				8C7117E729B88F82000485D0 /* Networking */,
-				8C7117B729B88F67000485D0 /* AppDelegate.swift */,
-				8C7117B929B88F67000485D0 /* SceneDelegate.swift */,
-				8C7117BB29B88F67000485D0 /* ViewController.swift */,
+				74A4910329BCC3FB000504D5 /* Core */,
+				74A4910029BCC375000504D5 /* Controller */,
 				8C7117BD29B88F67000485D0 /* Main.storyboard */,
 				8C7117C029B88F70000485D0 /* Assets.xcassets */,
 				8C7117C229B88F70000485D0 /* LaunchScreen.storyboard */,
@@ -171,10 +252,8 @@
 		8C7117E729B88F82000485D0 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				8C71180D29B9C83F000485D0 /* Error */,
 				8C71180829B8D2C7000485D0 /* Parameters */,
 				8C7117FE29B8CC4C000485D0 /* Multipart */,
-				8C7117FB29B893B8000485D0 /* Global Models */,
 				8C7117F829B891B3000485D0 /* Service */,
 				8C7117EB29B890E7000485D0 /* URLRequest */,
 				8C7117E829B88F8E000485D0 /* Route */,
@@ -207,20 +286,12 @@
 		8C7117F829B891B3000485D0 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				8C7117F929B891E9000485D0 /* Service.swift */,
-				8C71181229B9C888000485D0 /* DataTaskType.swift */,
-				8C71181429B9C8A7000485D0 /* ResponseHandler.swift */,
+				74A4910929BCC4D4000504D5 /* Main */,
+				74A4910829BCC4B3000504D5 /* ResponseHandler */,
+				74A4910429BCC46B000504D5 /* URLResponseHandler */,
 				8C71181629B9D125000485D0 /* ResponseCompletion.swift */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		8C7117FB29B893B8000485D0 /* Global Models */ = {
-			isa = PBXGroup;
-			children = (
-				8C7117FC29B893C3000485D0 /* Global Models.swift */,
-			);
-			path = "Global Models";
 			sourceTree = "<group>";
 		};
 		8C7117FE29B8CC4C000485D0 /* Multipart */ = {
@@ -242,13 +313,12 @@
 			path = Parameters;
 			sourceTree = "<group>";
 		};
-		8C71180D29B9C83F000485D0 /* Error */ = {
+		8C71180D29B9C83F000485D0 /* Errors */ = {
 			isa = PBXGroup;
 			children = (
 				8C71180E29B9C852000485D0 /* ResponseHandlerError.swift */,
-				8C71181029B9C868000485D0 /* ErrorHandler.swift */,
 			);
-			path = Error;
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +337,8 @@
 			dependencies = (
 			);
 			name = URLSessionAsyncNetworking;
+			packageProductDependencies = (
+			);
 			productName = URLSessionAsyncNetworking;
 			productReference = 8C7117B429B88F67000485D0 /* URLSessionAsyncNetworking.app */;
 			productType = "com.apple.product-type.application";
@@ -339,6 +411,8 @@
 				Base,
 			);
 			mainGroup = 8C7117AB29B88F67000485D0;
+			packageReferences = (
+			);
 			productRefGroup = 8C7117B529B88F67000485D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -384,9 +458,10 @@
 			files = (
 				8C7117ED29B890FC000485D0 /* URLRequest+AcceptType.swift in Sources */,
 				8C71180029B8CC6C000485D0 /* DataField.swift in Sources */,
-				8C7117FD29B893C3000485D0 /* Global Models.swift in Sources */,
+				74E8322329BB515100E9FFAE /* Post.swift in Sources */,
 				8C71181529B9C8A7000485D0 /* ResponseHandler.swift in Sources */,
 				8C71180629B8CFC8000485D0 /* MimeType.swift in Sources */,
+				74495F9729BB869A0082C6F9 /* ServerHTTPResponseError.swift in Sources */,
 				8C7117EF29B89119000485D0 /* URLRequest+Authorization.swift in Sources */,
 				8C7117BC29B88F67000485D0 /* ViewController.swift in Sources */,
 				8C7117F529B89184000485D0 /* URLRequest+HTTPMethod.swift in Sources */,
@@ -394,16 +469,17 @@
 				8C71180A29B8D2E2000485D0 /* Parameters.swift in Sources */,
 				8C7117EA29B890A7000485D0 /* Route.swift in Sources */,
 				8C7117B829B88F67000485D0 /* AppDelegate.swift in Sources */,
+				74A4910229BCC386000504D5 /* ViewController+UITableViewDataSource.swift in Sources */,
 				8C7117BA29B88F67000485D0 /* SceneDelegate.swift in Sources */,
 				8C7117FA29B891E9000485D0 /* Service.swift in Sources */,
 				8C71180429B8CE31000485D0 /* TestRouter.swift in Sources */,
 				8C7117F729B891A3000485D0 /* URLRequest+Query.swift in Sources */,
 				8C71180229B8CDCB000485D0 /* NSMutableData+String.swift in Sources */,
 				8C71181729B9D125000485D0 /* ResponseCompletion.swift in Sources */,
-				8C71181329B9C888000485D0 /* DataTaskType.swift in Sources */,
 				8C71180C29B9C741000485D0 /* Data+String.swift in Sources */,
-				8C71181129B9C868000485D0 /* ErrorHandler.swift in Sources */,
+				74495F9329BB7DE60082C6F9 /* URLResponseHandler.swift in Sources */,
 				8C7117F129B89136000485D0 /* URLRequest+Body.swift in Sources */,
+				74495F9529BB86860082C6F9 /* ClientHTTPResponseError.swift in Sources */,
 				8C71180F29B9C852000485D0 /* ResponseHandlerError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = URLSessionAsyncNetworking/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -564,6 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = URLSessionAsyncNetworking/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -589,6 +667,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -617,6 +696,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

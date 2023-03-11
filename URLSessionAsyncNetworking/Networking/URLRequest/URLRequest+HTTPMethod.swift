@@ -15,6 +15,7 @@ extension URLRequest {
         case delete = "DELETE"
     }
     
+    /// Assign the HTTP Method of a URL Request
     var method: HTTPMethod? {
         get { HTTPMethod(rawValue: self.httpMethod ?? "") }
         set { self.httpMethod = newValue?.rawValue ?? ""}

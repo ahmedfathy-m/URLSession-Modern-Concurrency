@@ -8,7 +8,8 @@
 import Foundation
 
 extension URLRequest {
-    var queryItems: [String: String] {
+    /// Assign the query parameters directly, without needing to access the URL
+    var queryItems: QueryParameters {
         get {
             guard let items = URLComponents(string: self.url?.absoluteString ?? "")?.queryItems else { return [:] }
             var query = [String: String]()

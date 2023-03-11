@@ -50,6 +50,7 @@ extension URLRequest {
         }
     }
     
+    /// Provides a better and cleaner way to access the Content Type of request body for an API call
     var contentType: ContentType {
         get { ContentType.getType(for: self.value(forHTTPHeaderField: "Content-Type") ?? "") }
         set { self.setValue(newValue.key, forHTTPHeaderField: "Content-Type") }

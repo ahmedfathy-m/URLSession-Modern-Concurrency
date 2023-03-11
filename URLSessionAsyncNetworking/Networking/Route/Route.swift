@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// This protocols describes all details of a network call. The route protocols allows to create multiple routers using enums as long as you provide the required fields.
 protocol Route {
     var baseURL: String { get }
     var routePath: String { get }
@@ -19,6 +20,8 @@ protocol Route {
 }
 
 extension Route {
+    /// This function converts the network route object to a URLRequest. You don't need to call this function, manually. The Webservice object will call it for you and run the request, automatically.
+    /// - Returns: A URLRequest-type object that describes the network call in detail.
     func asURLRequest() -> URLRequest {
         guard let url = URL(string: "\(baseURL)/\(routePath)") else {
             fatalError("Request URL is invalid URL")
